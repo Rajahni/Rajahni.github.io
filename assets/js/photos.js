@@ -2,7 +2,7 @@ window.onload = function() {
     const container = document.getElementById('photo-container');
 
     const imgFolder = '../img/Kam_30/';
-    const errorFolder = '../img/errorGifs/'
+    const errorFolder = '../img/errorGifs/';
 
     const imgList = ['0002Ivysaur', '0019Rattata', '0041Zubat', '0079Slowpoke',
                      '0129Magikarp', '0155Cyndaquil', '0183Marill', '0209Snubbull', 
@@ -14,8 +14,8 @@ window.onload = function() {
 
     const responses = ['Nope. Try again.', 
                         '*Michael Scott voice* NOOOO! GOD. NO, GOD! PLEASE, NO! ... NO! NO! NOOOOOOO!',
-                        'I regret to inform you that this selection you have made has failed to meet'+
-                        'the conditions of accuracy required to provide you with an approving response'+
+                        'I regret to inform you that this selection you have made has failed to meet '+
+                        'the conditions of accuracy required to provide you with an approving response '+
                         'and thus, you will have to attempt your selection anew... PUNK.',
                         "Sorry, Kam. You're not wrong often, but this time you are.",
                         '*Yawn*', 'Senpai, yameteee~! (>n<)'];
@@ -59,8 +59,8 @@ window.onload = function() {
     }
     }
 
-    const modal_content = document.getElementById('modal-bod')
-    const modal_footer = document.getElementById('modal-foot')
+    const modal_content = document.getElementById('modal-bod');
+    const modal_footer = document.getElementById('modal-foot');
 
     let imageName;
     let modal_state;
@@ -135,10 +135,10 @@ window.onload = function() {
                 }
                 else if (responses[randomMessage] == responses[5]){
                     const errorimgs = 'wrong-neighbourhood-oniichan';
-                    const errorImage = errorFolder + errorimgs + '.jpg'
+                    const errorImage = errorFolder + errorimgs + '.jpg';
                     const errimg = document.createElement('img');
                     errimg.src = errorImage;
-                    modal_content.appendChild(errimg)
+                    modal_content.appendChild(errimg);
                 }
                 else {
                     var para = document.createElement("P");
