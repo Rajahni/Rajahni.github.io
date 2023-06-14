@@ -1,8 +1,8 @@
 window.onload = function() {
     const container = document.getElementById('photo-container');
 
-    const imgFolder = 'assets/img/Kam_30/';
-    const errorFolder = 'assets/img/errorGifs/'
+    const imgFolder = '../img/Kam_30/';
+    const errorFolder = '../img/errorGifs/'
 
     const imgList = ['0002Ivysaur', '0019Rattata', '0041Zubat', '0079Slowpoke',
                      '0129Magikarp', '0155Cyndaquil', '0183Marill', '0209Snubbull', 
