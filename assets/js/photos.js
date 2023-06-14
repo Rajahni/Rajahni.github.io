@@ -149,7 +149,7 @@ window.onload = function() {
             }
         };
 
-        container.appendChild(img);
+        // container.appendChild(img);
     }
 
 };
