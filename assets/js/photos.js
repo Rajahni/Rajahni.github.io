@@ -71,8 +71,6 @@ window.onload = function() {
         const img = document.createElement('img');
         img.src = imgSrc;
 
-        container.appendChild(img);
-
         // Add an onclick event listener to each image element
         img.onclick = function(event) {
             modal.style.display = "block";
@@ -151,7 +149,7 @@ window.onload = function() {
             }
         };
 
-        
+        container.appendChild(img);
     }
 
 };
