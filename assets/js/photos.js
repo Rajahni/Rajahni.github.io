@@ -4,7 +4,7 @@ window.onload = function() {
     const imgFolder = 'assets/img/Kam_30/';
     const errorFolder = 'assets/img/errorGifs/';
 
-    var imgList = ['0002Ivysaur', '0019Rattata', '0041Zubat', '0079Slowpoke',
+    const imgList = ['0002Ivysaur', '0019Rattata', '0041Zubat', '0079Slowpoke',
                      '0129Magikarp', '0155Cyndaquil', '0183Marill', '0209Snubbull', 
                      '0239Elekid', '250px-0010Caterpie', '250px-0043Oddish', '250px-0048Venonat',
                      '250px-0104Cubone', '250px-0109Koffing', '250px-0148Dragonair', '250px-0276Taillow',
@@ -12,7 +12,7 @@ window.onload = function() {
                      '0280Ralts', '0285Shroomish', '0393Piplup', '0448Lucario', '600px-0025Pikachu', '600px-0027Sandshrew',
                      '600px-0915Lechonk', '0907Floragato', '0957Tinkatink'];
 
-    var responses = ['Nope. Try again.', 
+    const responses = ['Nope. Try again.', 
                         '*Michael Scott voice* NOOOO! GOD. NO, GOD! PLEASE, NO! ... NO! NO! NOOOOOOO!',
                         'I regret to inform you that this selection you have made has failed to meet '+
                         'the conditions of accuracy required to provide you with an approving response '+
