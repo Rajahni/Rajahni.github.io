@@ -14,9 +14,9 @@ window.onload = function() {
 
     const responses = ['Nope. Try again.', 
                         '*Michael Scott voice* NOOOO! GOD. NO, GOD! PLEASE, NO! ... NO! NO! NOOOOOOO!',
-                        'I regret to inform you that this selection you have made has failed to meet'+
-                        ' the conditions of accuracy required to provide you with an approving response'+
-                        ' and thus, you will have to attempt your selection anew... PUNK.',
+                        'I regret to inform you that this selection you have made has failed to meet '+
+                        'the conditions of accuracy required to provide you with an approving response '+
+                        'and thus, you will have to attempt your selection anew... PUNK.',
                         "Sorry, Kam. You're not wrong often, but this time you are.",
                         '*Yawn*', 'Senpai, yameteee~! (>n<)'];
                         
